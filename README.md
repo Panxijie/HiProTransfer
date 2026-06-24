@@ -1,5 +1,7 @@
 # HiProTransfer: Hierarchical Prototype-Guided Anomaly Detection for Distributed Microservice Systems in Production
 
+[English](README.md) | [中文](README_zh.md)
+
 HiProTransfer is a hierarchical prototype-guided anomaly detection method for
 distributed microservice systems in production. This repository provides the
 implementation, configuration, and anonymized dataset required to run the
