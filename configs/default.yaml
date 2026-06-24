@@ -1,0 +1,44 @@
+dataset:
+  name: data1
+  data_dir: data/data1
+  offline_data: offline_data.npy
+  online_data: online_data.npy
+  labels: labels.npy
+  machine_list: machine_list.json
+  metric_mask: metric_mask.npy
+  hierarchy: data/data1/hierarchy.json
+
+model:
+  feature_dim: 19
+  window_size: 60
+  latent_dim: 30
+  tcn_hidden_channels: 32
+  tcn_kernel_size: 5
+
+training:
+  seed: 2026
+  device: cuda:0
+  batch_size: 128
+  lr: 0.001
+  datacenter_epochs: 30
+  service_epochs: 10
+  machine_epochs: 5
+  prototype_regularization: 0.0
+
+prototype:
+  neighbors: 3
+  center_weight: 0.5
+
+hierarchy:
+  minutes_per_day: 1440
+  days_per_machine: 14
+  datacenter_samples: 160
+  min_samples_per_service: 5
+  cap_samples_per_service: 20
+
+detection:
+  sigma: 3.0
+  point_adjust: true
+
+output:
+  output_dir: outputs

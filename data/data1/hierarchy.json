@@ -1,0 +1,167 @@
+{
+  "datacenters": {
+    "datacenters_1": {
+      "services": {
+        "server_1": {
+          "machines": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "machine_names": [
+            "datacenters_1-server_1-machine_1",
+            "datacenters_1-server_1-machine_2",
+            "datacenters_1-server_1-machine_3",
+            "datacenters_1-server_1-machine_4",
+            "datacenters_1-server_1-machine_5",
+            "datacenters_1-server_1-machine_6",
+            "datacenters_1-server_1-machine_7",
+            "datacenters_1-server_1-machine_8",
+            "datacenters_1-server_1-machine_9",
+            "datacenters_1-server_1-machine_10",
+            "datacenters_1-server_1-machine_11",
+            "datacenters_1-server_1-machine_12"
+          ],
+          "center_machine": 10,
+          "machine_count": 12
+        },
+        "server_2": {
+          "machines": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "machine_names": [
+            "datacenters_1-server_2-machine_13",
+            "datacenters_1-server_2-machine_14",
+            "datacenters_1-server_2-machine_15",
+            "datacenters_1-server_2-machine_16",
+            "datacenters_1-server_2-machine_17",
+            "datacenters_1-server_2-machine_18"
+          ],
+          "center_machine": 14,
+          "machine_count": 6
+        }
+      },
+      "machine_count": 18
+    },
+    "datacenters_2": {
+      "services": {
+        "server_3": {
+          "machines": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "machine_names": [
+            "datacenters_2-server_3-machine_19",
+            "datacenters_2-server_3-machine_20",
+            "datacenters_2-server_3-machine_21",
+            "datacenters_2-server_3-machine_22",
+            "datacenters_2-server_3-machine_23",
+            "datacenters_2-server_3-machine_24",
+            "datacenters_2-server_3-machine_25",
+            "datacenters_2-server_3-machine_26",
+            "datacenters_2-server_3-machine_27",
+            "datacenters_2-server_3-machine_28",
+            "datacenters_2-server_3-machine_29",
+            "datacenters_2-server_3-machine_30"
+          ],
+          "center_machine": 24,
+          "machine_count": 12
+        },
+        "server_4": {
+          "machines": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "machine_names": [
+            "datacenters_2-server_4-machine_31",
+            "datacenters_2-server_4-machine_32",
+            "datacenters_2-server_4-machine_33",
+            "datacenters_2-server_4-machine_34",
+            "datacenters_2-server_4-machine_35",
+            "datacenters_2-server_4-machine_36",
+            "datacenters_2-server_4-machine_37",
+            "datacenters_2-server_4-machine_38"
+          ],
+          "center_machine": 37,
+          "machine_count": 8
+        }
+      },
+      "machine_count": 20
+    },
+    "datacenters_3": {
+      "services": {
+        "server_2": {
+          "machines": [
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "machine_names": [
+            "datacenters_3-server_2-machine_39",
+            "datacenters_3-server_2-machine_40",
+            "datacenters_3-server_2-machine_41",
+            "datacenters_3-server_2-machine_42",
+            "datacenters_3-server_2-machine_43",
+            "datacenters_3-server_2-machine_44",
+            "datacenters_3-server_2-machine_45",
+            "datacenters_3-server_2-machine_46",
+            "datacenters_3-server_2-machine_47",
+            "datacenters_3-server_2-machine_48"
+          ],
+          "center_machine": 38,
+          "machine_count": 10
+        },
+        "server_5": {
+          "machines": [
+            48,
+            49
+          ],
+          "machine_names": [
+            "datacenters_3-server_5-machine_49",
+            "datacenters_3-server_5-machine_50"
+          ],
+          "center_machine": 48,
+          "machine_count": 2
+        }
+      },
+      "machine_count": 12
+    }
+  }
+}
