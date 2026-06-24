@@ -1,6 +1,8 @@
 # HiProTransfer: Hierarchical Prototype-Guided Anomaly Detection for Distributed Microservice Systems in Production
 
-[English](README.md) | [中文](README_zh.md)
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
 
 HiProTransfer 是一种面向生产环境分布式微服务系统的层次化原型引导异常检测方法。本仓库提供运行训练与检测流水线所需的实现代码、配置和匿名化数据集。
 
