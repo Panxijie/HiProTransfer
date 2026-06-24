@@ -1,5 +1,9 @@
 # 数据目录
 
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ## 数据开源范围
 
 受公司保密要求、生产系统安全要求和数据治理规定限制，完整生产环境数据集无法公开。因此，本仓库仅发布 `data1`：从全量数据中剪枝得到、经过匿名化处理且保留层次拓扑关系的代表性子集。
@@ -21,7 +25,7 @@ data/data1/
 拓扑分布：
 
 | 机房 | 服务 | 机器数 |
-|---|---|---:|
+|:---:|:---:|:---:|
 | datacenters_1 | server_1 | 12 |
 | datacenters_1 | server_2 | 6 |
 | datacenters_2 | server_3 | 12 |

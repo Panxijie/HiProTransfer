@@ -1,5 +1,9 @@
 # Data Directory
 
+<p align="center">
+  <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
+</p>
+
 ## Public release scope
 
 Due to corporate confidentiality, production-security, and data-governance
@@ -26,7 +30,7 @@ data/data1/
 Topology distribution:
 
 | Datacenter | Service | Machines |
-|---|---|---:|
+|:---:|:---:|:---:|
 | datacenters_1 | server_1 | 12 |
 | datacenters_1 | server_2 | 6 |
 | datacenters_2 | server_3 | 12 |
